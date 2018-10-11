@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js --exec babel-node",
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "Tyrese Williams",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-optional-catch-binding": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.3.2",
+    "nodemon": "*",
+    "morgan": "*",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chakram": "^1.5.0",
+    "chalk": "^2.4.1",
+    "nodemon": "*",
+    "mocha": "^5.2.0"
+  },
+  "engines": {
+    "node": "7.4.0"
+  }
+}
